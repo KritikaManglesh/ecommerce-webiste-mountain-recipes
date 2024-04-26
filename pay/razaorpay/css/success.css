@@ -1,0 +1,70 @@
+body {
+    align-items: center;
+    background-image: url(/cllgproject/img/pancake.jpg);
+    display: flex;
+    margin-left: 200px;
+}
+
+.form {
+    /* background-color: #15172b; */
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 800px;
+    width: 800px;
+    padding: 20px;
+    width: 320px;
+    float: left;
+    margin-left: 200px;
+
+}
+
+.title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+h2 {
+    color: whitesmoke;
+
+}
+
+h3 {
+    color: #eee;
+
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+
+.submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 25px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 25%;
+}
+
+.submit:active {
+    background-color: #06b;
+}
